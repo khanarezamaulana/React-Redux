@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
+import Redux from './Redux';
 
 class Price extends Component {
   render() {
@@ -24,6 +25,7 @@ class Price extends Component {
           <h3>
             HOME PAGE
           </h3>
+          <Redux />
       </div>
     );
   }
